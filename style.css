@@ -777,3 +777,143 @@ footer{
     margin-bottom:25px;
     font-family:"Traditional Arabic", serif;
 }
+/* بطاقة العيد */
+
+.eid-card{
+    position:relative;
+
+    background:rgba(255,255,255,0.1);
+
+    padding:25px 35px;
+
+    border-radius:20px;
+
+    display:inline-block;
+
+    margin-bottom:30px;
+
+    backdrop-filter:blur(5px);
+
+    box-shadow:0 0 20px rgba(255,255,255,0.1);
+
+    overflow:visible;
+}
+
+/* عنوان العيد */
+
+.eid-title{
+    font-size:26px;
+    color:white;
+    margin-bottom:10px;
+    font-family:"Traditional Arabic", serif;
+}
+
+/* النص */
+
+.eid-text{
+    font-size:22px;
+    color:#ffe082;
+    font-family:"Traditional Arabic", serif;
+}
+
+/* مسار الدوران */
+
+.light-orbit{
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    width:320px;
+    height:180px;
+
+    margin-left:-160px;
+    margin-top:-90px;
+
+    animation:spin 8s linear infinite;
+
+    pointer-events:none;
+}
+
+/* الضوء */
+
+.light{
+    position:absolute;
+
+    width:10px;
+    height:10px;
+
+    border-radius:50%;
+}
+
+/* أماكن الأنوار */
+
+.light1{
+    top:0;
+    left:50%;
+    background:#ff5252;
+    box-shadow:0 0 12px #ff5252;
+}
+
+.light2{
+    top:20%;
+    right:0;
+    background:#ffd740;
+    box-shadow:0 0 12px #ffd740;
+}
+
+.light3{
+    bottom:0;
+    right:30%;
+    background:#69f0ae;
+    box-shadow:0 0 12px #69f0ae;
+}
+
+.light4{
+    bottom:0;
+    left:30%;
+    background:#40c4ff;
+    box-shadow:0 0 12px #40c4ff;
+}
+
+.light5{
+    top:20%;
+    left:0;
+    background:#e040fb;
+    box-shadow:0 0 12px #e040fb;
+}
+
+.light6{
+    top:70%;
+    left:0;
+    background:#ff6e40;
+    box-shadow:0 0 12px #ff6e40;
+}
+
+.light7{
+    top:70%;
+    right:0;
+    background:#ffff00;
+    box-shadow:0 0 12px #ffff00;
+}
+
+.light8{
+    top:0;
+    left:20%;
+    background:#18ffff;
+    box-shadow:0 0 12px #18ffff;
+}
+
+/* الحركة الدائرية */
+
+@keyframes spin{
+
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+
+}
