@@ -749,3 +749,31 @@ footer{
 
     box-shadow:0 0 20px rgba(0,0,0,0.15);
 }
+/* بسم الله */
+
+.bismillah{
+    font-size:45px;
+    color:#ffd54f;
+    margin-bottom:15px;
+    font-family:"Traditional Arabic", serif;
+    text-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* عيد أضحى مبارك */
+
+.eid-title{
+    font-size:26px;
+    color:white;
+    margin-bottom:10px;
+    font-family:"Traditional Arabic", serif;
+    letter-spacing:1px;
+}
+
+/* كل سنة وأنتم بخير */
+
+.eid-text{
+    font-size:22px;
+    color:#ffe082;
+    margin-bottom:25px;
+    font-family:"Traditional Arabic", serif;
+}
