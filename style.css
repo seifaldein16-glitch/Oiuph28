@@ -905,7 +905,6 @@ footer{
 }
 
 /* الحركة الدائرية */
-
 @keyframes spin{
 
     from{
@@ -916,4 +915,64 @@ footer{
         transform:rotate(360deg);
     }
 
+}
+/* روابط المواد */
+
+.subject-links{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-bottom:30px;
+}
+
+.telegram-card,
+.whatsapp-card{
+    display:block;
+    width:100%;
+    padding:18px;
+    margin-bottom:15px;
+    border-radius:12px;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.telegram-card{
+    background:#229ED9;
+}
+
+.telegram-card:hover{
+    transform:translateY(-3px);
+}
+
+.whatsapp-card{
+    background:#25D366;
+}
+
+.whatsapp-card:hover{
+    transform:translateY(-3px);
+}
+.video-box{
+    background:white;
+    padding:25px;
+    margin-bottom:30px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.video-box h3{
+    color:#00695c;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.subject-video{
+    width:100%;
+    max-width:700px;
+    border-radius:15px;
+    margin-bottom:15px;
 }
