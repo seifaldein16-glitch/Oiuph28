@@ -976,3 +976,37 @@ footer{
     border-radius:15px;
     margin-bottom:15px;
 }
+.download-app-section{
+    text-align:center;
+    padding:60px 20px;
+    margin:50px auto;
+}
+
+.download-app-section h2{
+    color:#0b5ed7;
+    margin-bottom:15px;
+    font-size:32px;
+}
+
+.download-app-section p{
+    margin-bottom:25px;
+    font-size:18px;
+}
+
+.download-app-btn{
+    display:inline-block;
+    background:linear-gradient(135deg,#0d6efd,#00c6ff);
+    color:white;
+    text-decoration:none;
+    padding:18px 40px;
+    font-size:24px;
+    font-weight:bold;
+    border-radius:50px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.download-app-btn:hover{
+    transform:translateY(-5px) scale(1.05);
+    box-shadow:0 12px 35px rgba(0,0,0,0.3);
+}
